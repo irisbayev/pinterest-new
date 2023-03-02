@@ -9,6 +9,10 @@
     column-gap: 15px;
     padding: 15px;
 }
+.container:hover{
+    cursor: pointer;
+
+}
 
 img{
     width: 100%;
@@ -19,9 +23,12 @@ img{
     text-decoration: none;
     list-style: none;
     display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .logo{
-    margin-top: 20px;
+    margin-top: 23px;
     padding: 10px;
     
 }
@@ -43,10 +50,11 @@ img{
     margin-right: 20px;
 }
 .search{
+    
     margin-right: 40px;
-    margin-top: 25px;
+    margin-top: 23px;
     height: 50px;
-    width: 1450px;
+    width: 900px;
     background-color: rgb(230, 227, 227);
     border-radius: 30px;
     display: flex;
@@ -60,11 +68,33 @@ img{
     display: flex;
     justify-content: start;
 }
+.input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(230, 227, 227);
+}
 .notification{
-    margin-right: 40px;
+    margin-right: 20px;
+}
+.fa-bell{
+    margin-top: 23px;
+    font-size: 25px;
+}
+.comment{
+    margin-right: 20px;
+    color: rgb(146, 145, 145);;
+}
+.fa-comment-dots{
+    margin-top: 33px;
+    font-size: 25px;
 }
 .profile{
-    margin-right: 40px;
+   
+    margin-top: 30px;
+    font-size: 25px;
 }
 .btn1{
     font-size: 20px;
